@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'my_blog.wsgi.application'
+WSGI_APPLICATION = 'sportblog.wsgi.application'
 
 
 # Database
