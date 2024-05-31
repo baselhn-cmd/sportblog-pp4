@@ -1,2 +1,2 @@
-web: gunicorn sportblog.wsgi
+web: gunicorn my-blog.wsgi
 
