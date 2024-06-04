@@ -94,10 +94,16 @@ DATABASES = {
     'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }
 
+# CSRF_TRUSTED_ORIGINS = [
+#     ".herokuapp.com",
+#     "8000-baselhncmd-sportblogpp4-c4bpb1umkft.ws-eu114.gitpod.io",
+#     "sportblog-pp4-e79d6c79885b.herokuapp.com",
+# ]
+
 CSRF_TRUSTED_ORIGINS = [
-    ".herokuapp.com",
-    "8000-baselhncmd-sportblogpp4-c4bpb1umkft.ws-eu114.gitpod.io",
-    "sportblog-pp4-e79d6c79885b.herokuapp.com",
+"https://*.herokuapp.com",
+"https://*.gitpod.io",
+"https://*.codeinstitute-ide.net"
 ]
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
