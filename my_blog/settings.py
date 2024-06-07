@@ -39,6 +39,7 @@ ALLOWED_HOSTS = ['sportblog-pp4-e79d6c79885b.herokuapp.com',
 
 # Application definition
 
+jls_extract_var = 'blog'
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -46,7 +47,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog',
+    'sportblog',
 ]
 
 MIDDLEWARE = [
