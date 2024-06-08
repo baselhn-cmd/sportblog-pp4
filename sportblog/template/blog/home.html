@@ -6,7 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Blog Home from template</h1>
-    <p>this is my blog home</p>
+    <h1>Blog Home </h1>
+   <hr>
+   {% for posts in posts %}
+      <h3>{{ posts.title }}</h3>
+      <p>By: {{ posts.author }} on {{ posts.dat}} </p>
+   {% endfor %}
 </body>
 </html>
