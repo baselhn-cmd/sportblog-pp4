@@ -30,7 +30,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 ALLOWED_HOSTS = ['sportblog-pp4-e79d6c79885b.herokuapp.com',
                 '.herokuapp.com',
                 '8000-baselhncmd-sportblogpp4-c4bpb1umkft.ws-eu114.gitpod.io',
