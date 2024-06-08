@@ -17,11 +17,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from sportblog import views as index_views
-from sportblog import about as about
+# from sportblog import about as about
 
 
 urlpatterns = [
     path('', index_views.index, name='index'),
     path('admin/', admin.site.urls),
-    path("about/", views.about, name="blog-about"),
+    # path("about/", views.about, name="blog-about"),
 ]
