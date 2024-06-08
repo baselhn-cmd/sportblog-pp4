@@ -34,7 +34,8 @@ DEBUG = True
 ALLOWED_HOSTS = ['sportblog-pp4-e79d6c79885b.herokuapp.com',
                 '.herokuapp.com',
                 '8000-baselhncmd-sportblogpp4-c4bpb1umkft.ws-eu114.gitpod.io',
-                '8000-baselhncmd-sportblogpp4-x88v1x7gizi.ws-eu114.gitpod.io',]
+                '8000-baselhncmd-sportblogpp4-x88v1x7gizi.ws-eu114.gitpod.io',
+                ]
 
 
 # Application definition
@@ -48,6 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'sportblog',
+   
 ]
 
 MIDDLEWARE = [
