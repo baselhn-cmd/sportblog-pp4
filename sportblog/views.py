@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-post = [
+posts = [
     {
         'author': 'Destiny Franks',
         'title': 'Blog Post1',
@@ -19,10 +19,10 @@ post = [
 ]
 # Create your views here.
 def home(request):
-    contex = {
+    context = {
         'posts': posts
     }
-    return render(request, 'sportblog/home.html', context)
+    return render(request, 'blog/home.html', context)
 
 def about(request):
-    return render(request, 'sprtblog/about.html')
+    return render(request, 'blog/about.html')

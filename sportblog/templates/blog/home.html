@@ -1,3 +1,4 @@
+{% extends 'blog/base.html' %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +11,8 @@
    <hr>
    {% for posts in posts %}
       <h3>{{ posts.title }}</h3>
-      <p>By: {{ posts.author }} on {{ posts.dat}} </p>
+      <p>By: {{ posts.author }} on {{ posts.dat_posted}}</p>
+      <p>{{ posts.contexs }}</p>
    {% endfor %}
 </body>
 </html>
