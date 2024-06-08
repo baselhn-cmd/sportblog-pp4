@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from .models import Post
+from django.views import generic
 
 posts = [
     {
@@ -26,3 +28,7 @@ def home(request):
 
 def about(request):
     return render(request, 'blog/about.html')
+
+# class PostList(generic.ListView):
+#     queryset = Post.objects.filter(status=1).oreder_by('-created_on')
+#     template_name = 'index.html'
