@@ -1,5 +1,9 @@
 from django.db import models
 from django.contrib.auth.models import User
+from PIL import Image
+from django.core.exceptions import ValidationError
+from django.db.models import ImageField
+
 
 # Create your models here.
 
@@ -12,11 +16,21 @@ class Homepage(models.Model):
     bg_image = ImageField(upload_to='images/%Y/%m/%D', validators=[validate_image_dimensions])
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models-DateTimeField(auto_now=True)
+    content = models.TextField()
 
     def __str__(self):
         return self.title
 
+def validate_image_dimensions(Image):
+    min_width = 1000
+    min_height = 500
+    img = Image.open(image)
+    width, height = img.size
 
+    if width < min_height or height < min_height:
+        raise ValidationError(
+            f"Image dimensions must be at least {min_width}px wide and {min_height}"
+            )
 
 class Post(models.Model):
     title = models.CharField(max_length=200, unique=True)
