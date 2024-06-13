@@ -6,13 +6,13 @@ from django.views import generic
 
 # Create your views here.
 def home(request):
-    return render(request, 'blog/home.html')
+    return render(request, 'sportblog/home.html')
 
 def about(request):
-    return render(request, 'blog/about.html')
+    return render(request, 'sportblog/about.html')
 
 def contact(request):
-    return render(request, 'blog/contat.html')
+    return render(request, 'sportblog/contat.html')
 
 def post_details(request):
-    return render(request, 'blog/post_details.html')
+    return render(request, 'sportblog/post_details.html')
