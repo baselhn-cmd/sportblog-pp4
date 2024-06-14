@@ -149,7 +149,7 @@ superuser they have access to the buttons for deleting or updating comments. But
 ![Logout]()
 
 * When users log out of the website they will see a message at the top of the page saying "You have signed out".<br>
-  
+
 
 ### Like Post
 
