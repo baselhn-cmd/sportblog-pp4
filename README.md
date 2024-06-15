@@ -1,10 +1,10 @@
 # Sport Blog
 
-Hungry Chef is a food blog web site where users can find recipes and cookbooks created by other users. The goal of the Hungry Chef is to bring food lovers closer and provide them with a place where they can post their ideas, discuss in comments and get inspired!
-(Developer: Matej Car)
+Spoort Blog is a sport news blog web site where users can find news about all sports. The goal of the Sport Blog is to send everthing news about all sports, discuss in comments and get inspired!
+(Developer: Basel Hussein)
 
 
-![PP4](/docs/images/am-i-responsive.png)
+![PP4](/docs/image/responsive (21).png)
 
 
 [ >>> Live live website ]()
