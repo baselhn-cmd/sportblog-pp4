@@ -129,7 +129,7 @@ superuser they have access to the buttons for deleting or updating comments. But
 * On the website footer, users can see basic information about the blog such as contact, social media, 
   copyright.
 
-## Messages and Interaction With Users
+<!-- ## Messages and Interaction With Users
 ### Sign up
 
 ![Sign up]()
@@ -217,7 +217,7 @@ delete the following ones:
 3. Author
 4. Categories
 
-*As admin/superuser I can also approve comments, approve posts and change the status and give other permissions to the users.<br>
+*As admin/superuser I can also approve comments, approve posts and change the status and give other permissions to the users.<br> -->
 
 ## Technologies Used
 
