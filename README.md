@@ -76,7 +76,7 @@ Wireframes for this project can be located [here](WIREFRAMES.md)
 ![Blog Page]() -->
 
 
-##
+<!-- ##
 
 ### Post Detail Page - Comments
 
@@ -127,7 +127,7 @@ superuser they have access to the buttons for deleting or updating comments. But
 
 ![Footer]()
 * On the website footer, users can see basic information about the blog such as contact, social media, 
-  copyright.
+  copyright. -->
 
 <!-- ## Messages and Interaction With Users
 ### Sign up
