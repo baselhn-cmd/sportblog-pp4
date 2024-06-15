@@ -4,7 +4,7 @@ Spoort Blog is a sport news blog web site where users can find news about all sp
 (Developer: Basel Hussein)
 
 
-![PP4](/docs/image/responsive (21).png)
+![PP4](/static/image/responsive%20(21).png)
 
 
 [ >>> Live live website ]()
